@@ -1,0 +1,279 @@
+.validation-container {
+  background-color: #ffffff;
+  color: red;
+  padding: 25px;
+  border: 1px solid red;
+  text-align: center;
+  font-family: "Outfit-SemiBold", Helvetica;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 55px;
+  margin-bottom: 10px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 465px);
+  left: calc(50% - 320px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  width: 500px;
+  height: 30px;
+  box-shadow:10px 5px 2em black;
+}
+.custom-dropdown {
+  position: relative;
+}
+
+.custom-dropdown-select {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-lightblue);
+  border-radius: var(--br-17xl);
+  width:640px;
+  height: 56px;
+  padding: var(--padding-smi) var(--padding-18xl);
+  box-sizing: border-box;
+  color: var(--color-gray);
+  cursor: pointer;
+  &:focus {
+    color: black;
+    font-size: 20px;
+  }
+ 
+}
+.first-option:focus{
+  color: var(--color-gray);
+}
+.custom-dropdown-select:not(:checked) {
+  color: black;
+  font-size: 20px;
+}
+select {
+  font-family: var(--font-outfit); /* Set the desired font-family */
+  font-size: var(--font-size-5xl); /* Set the desired font size */
+  color: var(--color-gray);
+  /* ... other styles */
+}
+body {
+  margin: 0;
+  line-height: normal;
+  overflow: hidden; /* Prevent scrolling */
+  height: 100vh;    /* Set a fixed height equal to the viewport height */
+}
+
+.frame-iconn {
+  align-self: stretch;
+  min-width: 100%;
+  overflow: hidden;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background: linear-gradient(
+    105.85deg,
+    rgba(232, 64, 68, 0.53),
+    rgba(74, 180, 233, 0.84)
+  );
+  filter: blur(118px);
+}
+.frame-parent,
+.rectangle-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.rectangle-wrapper {
+  align-self: stretch;
+  height: 1080px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: -1080px;
+}
+.frame-parent {
+  margin: 0 !important;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.logo-ishan-2-icon {
+  position: absolute;
+  width: 284px;
+  height: 93px;
+  object-fit: cover;
+  left: 250px;
+}
+.logo-ishan-2-wrapper {
+  width: 284px;
+  height: 93px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.admin-parent {
+  width: 692px;
+  display: flex;
+  flex-direction: column;
+}
+.frame-item,
+.log-in {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-outfit);
+}
+.frame-item {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-lightblue);
+  border-radius: var(--br-17xl);
+  width: 692px;
+  height: 56px;
+  padding: var(--padding-smi) var(--padding-18xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.frame-item::placeholder {
+  color: var(--color-gray); /* Color for the placeholder text */
+}
+.log-in {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  width: 198px;
+  height: 38px;
+}
+.cancel,
+.log-in,
+.log-in-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.log-in-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) 24px;
+  background-color: #0095d5;
+  border-radius: var(--br-23xl);
+  width: 247px;
+  height: 58px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.cancel {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-outfit);
+  color: rgba(255, 5, 5, 0.61);
+  text-align: center;
+  align-items: center;
+  width: 198px;
+  height: 38px;
+}
+.cancel-wrapper,
+.frame-group {
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.cancel-wrapper {
+  cursor: pointer;
+  border: 1px solid rgba(248, 9, 11, 0.61);
+  padding: var(--padding-3xs) 22px;
+  background-color: transparent;
+  border-radius: var(--br-23xl);
+  width: 247px;
+  height: 58px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.frame-group {
+  margin: 0;
+  border-radius: 55px;
+  background-color: var(--color-white);
+  box-shadow: 3px -17px 34px rgba(0, 0, 0, 0.25);
+  width: 830px;
+  height: 450px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 95px;
+}
+.frame,
+.frame-group,
+.login {
+  overflow: hidden;
+  display: flex;
+}
+.frame {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 400px);
+  left: calc(50% - 453.5px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.login {
+  position: relative;
+  background-color: #e0f3fa;
+  width: 100%;
+  height: 1080px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .logo-ishan-2-wrapper {
+    width: 284px;
+    height: 93px;
+  }
+  .frame,
+  .login {
+    width: auto;
+    align-self: unset;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+  .frame {
+    flex-direction: column;
+    padding-right: 219px;
+    padding-bottom: var(--padding-3xs);
+  }
+  .login {
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 87px 0 60px;
+  }
+}

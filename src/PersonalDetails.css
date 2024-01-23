@@ -1,0 +1,601 @@
+
+.page-layout-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2100px;
+    height: 1080px;
+    object-fit: cover;
+  }
+  .navbar-admin3-child {
+    position: absolute;
+    width: 97.61%;
+    top: 14px;
+    right: 0;
+    left: 2.39%;
+    background-color: var(--color-darkslategray-100);
+    box-shadow: 38px -20px 33px 55px rgba(0, 0, 0, 0.25);
+    height: 140px;
+  }
+  .frame-child {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: -17.1px;
+    border-radius: var(--br-87xl);
+    background-color: var(--color-white);
+    box-shadow: -18px 4px 27px rgba(0, 0, 0, 0.25) inset,
+      30px 0 86px rgba(0, 0, 0, 0.25);
+    width: 514px;
+  }
+  .frame-icon {
+    position: absolute;
+    top: 24px;
+    left: 97.8px;
+    width: 319.2px;
+    height: 105.9px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .rectangle-parent,
+  .ringing-phone-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 513.6px;
+    height: 154px;
+  }
+  .ringing-phone-icon {
+    width: 71px;
+    height: 56px;
+    object-fit: cover;
+  }
+  .contact-us {
+    top: 25px;
+    left: calc(50% - 41.45px);
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 153.9px;
+  }
+  .contact-button,
+  .contact-us,
+  .profile {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+  }
+  .contact-button {
+    top: 23.5px;
+    left: 266.7px;
+    width: 220.9px;
+    height: 56px;
+  }
+  .profile {
+    top: 26px;
+    left: calc(50% - 52.45px);
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 104.9px;
+  }
+  .frame,
+  .profile-button {
+    position: absolute;
+    top: 1px;
+    left: 67.1px;
+    width: 104.9px;
+    height: 56px;
+    overflow: hidden;
+  }
+  .profile-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 23.5px;
+    left: 59.7px;
+    width: 172px;
+    height: 58px;
+  }
+  .male-user-icon {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 56px;
+    height: 58px;
+    object-fit: cover;
+  }
+  .frame-icon1,
+  .frame1 {
+    position: absolute;
+    top: 24.5px;
+    left: 59.7px;
+    width: 56px;
+    height: 68px;
+    overflow: hidden;
+  }
+  .frame-icon1 {
+    top: 0;
+    left: -0.4px;
+    width: 55px;
+    height: 55.1px;
+    object-fit: cover;
+  }
+  .logout {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 14.1px;
+    left: calc(50% - 52.45px);
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 104.9px;
+  }
+  .frame2,
+  .logout-button {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+    width: 104.9px;
+    height: 44.1px;
+    overflow: hidden;
+  }
+  .logout-button {
+    top: 30.5px;
+    left: 508.7px;
+    width: 159.5px;
+    height: 55.1px;
+  }
+  .home {
+    width: 71.6px;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame3,
+  .home-button1 {
+    position: absolute;
+    width: 111.6px;
+  }
+  .home-button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 15.8px;
+    left: 0;
+    height: 28.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame3 {
+    top: 7.5px;
+    left: 53px;
+    height: 44px;
+    overflow: hidden;
+  }
+  .home-button,
+  .home-icon {
+    position: absolute;
+    height: 59px;
+  }
+  .home-icon {
+    top: 0;
+    left: 0;
+    width: 53px;
+    object-fit: cover;
+  }
+  .home-button {
+    top: 24.5px;
+    left: -103.3px;
+    width: 164.6px;
+  }
+  .nav-menu {
+    position: absolute;
+    top: 23.5px;
+    right: 0.2px;
+    width: 752.5px;
+    height: 71px;
+  }
+  .navbar-admin3 {
+    margin: 0;
+    position: absolute;
+    width: calc(100% + 65px);
+    top: -23px;
+    right: -28px;
+    left: -37px;
+    height: 116px;
+  }
+  .inner-child {
+    position: absolute;
+    width: 98.44%;
+    top: 26px;
+    right: 0.81%;
+    left: 0.75%;
+    border: 1px solid var(--color-firebrick-200);
+    box-sizing: border-box;
+    height: 733px;
+  }
+  .first-name,
+  .personal-details {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    text-align: left;
+    display: inline-block;
+    height: 30px;
+  }
+  .personal-details {
+    margin: 0;
+    top: 57px;
+    left: 43px;
+    font-size: var(--font-size-6xl);
+    letter-spacing: 0.5em;
+    font-weight: 700;
+    color: var(--color-darkslategray-100);
+    width: 450px;
+  }
+  .first-name {
+    width: 12.88%;
+    top: 12px;
+    left: 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+  }
+  .personal-info-child {
+    border: 2px solid var(--color-darkslategray-100);
+    outline: 0;
+    background-color: var(--color-lightblue-200);
+    position: absolute;
+    width: 31.36%;
+    top: 0;
+    right: 52.73%;
+    left: 15.91%;
+    border-radius: var(--br-25xl);
+    box-sizing: border-box;
+    height: 63px;
+  }
+  .last-name {
+    position: absolute;
+    width: 12.88%;
+    top: 100px;
+    left: 0;
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    height: 30px;
+  }
+  .personal-info-item {
+    border: 2px solid var(--color-darkslategray-100);
+    outline: 0;
+    background-color: var(--color-lightblue-200);
+    position: absolute;
+    width: 31.36%;
+    top: 88px;
+    right: 52.73%;
+    left: 15.91%;
+    border-radius: var(--br-25xl);
+    box-sizing: border-box;
+    height: 63px;
+  }
+  .city,
+  .contact-no,
+  .e-mail,
+  .gender,
+  .state {
+    position: absolute;
+    width: 12.88%;
+    top: 188px;
+    left: 0;
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    height: 30px;
+  }
+  .city,
+  .e-mail,
+  .gender,
+  .state {
+    top: 276px;
+  }
+  .city,
+  .gender,
+  .state {
+    width: 12.49%;
+    top: 17px;
+    left: 55.56%;
+  }
+  .city,
+  .state {
+    top: 193px;
+    left: 56.61%;
+  }
+  .city {
+    top: 105px;
+    left: 57.07%;
+  }
+  .personal-info-child1,
+  .personal-info-child2,
+  .personal-info-child3,
+  .personal-info-inner,
+  .rectangle-input {
+    border: 2px solid var(--color-darkslategray-100);
+    outline: 0;
+    background-color: var(--color-lightblue-200);
+    position: absolute;
+    width: 34.97%;
+    top: 88px;
+    right: 0;
+    left: 65.03%;
+    border-radius: var(--br-25xl);
+    box-sizing: border-box;
+    height: 63px;
+  }
+  .personal-info-child1,
+  .personal-info-child2,
+  .personal-info-child3,
+  .rectangle-input {
+    top: 176px;
+  }
+  .personal-info-child1,
+  .personal-info-child2,
+  .personal-info-child3 {
+    top: 0;
+  }
+  .personal-info-child2,
+  .personal-info-child3 {
+    width: 31.36%;
+    top: 264px;
+    right: 52.73%;
+    left: 15.91%;
+  }
+  .personal-info-child3 {
+    top: 181px;
+  }
+  .inner,
+  .outer,
+  .personal-info {
+    position: absolute;
+    overflow: hidden;
+  }
+  .personal-info {
+    width: calc(100% - 137px);
+    top: 146px;
+    right: 73px;
+    left: 64px;
+    height: 327px;
+  }
+  .inner,
+  .outer {
+    width: 96.6%;
+    right: 1.67%;
+    bottom: 19px;
+    left: 1.73%;
+    height: 772px;
+  }
+  .outer {
+    margin: 0;
+    height: 77.5%;
+    width: 93.33%;
+    top: 22.13%;
+    right: 3.54%;
+    bottom: 0.37%;
+    left: 3.13%;
+    background-color: var(--color-white);
+  }
+  .personalbutton-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-33xl);
+    background-color: var(--color-crimson);
+    width: 424px;
+    height: 57px;
+  }
+  .personal-details1 {
+    margin: 0;
+    position: absolute;
+    top: 24px;
+    left: 69px;
+    font-size: var(--font-size-2xl);
+    letter-spacing: 0.26em;
+    line-height: 9px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .companybutton-child,
+  .personalbutton {
+    position: absolute;
+    width: 424px;
+    height: 57px;
+  }
+  .personalbutton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 211px;
+    left: 104px;
+  }
+  .companybutton-child {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-33xl);
+    background-color: var(--color-crimson);
+  }
+  .company-details {
+    margin: 0;
+    position: absolute;
+    top: 24px;
+    left: 75px;
+    font-size: var(--font-size-2xl);
+    letter-spacing: 0.26em;
+    line-height: 9px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .companybutton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 203px;
+    left: 1060px;
+    width: 424px;
+    height: 57px;
+  }
+  .educational-details {
+    margin: 0;
+    position: absolute;
+    top: 24px;
+    left: 41px;
+    font-size: var(--font-size-2xl);
+    letter-spacing: 0.26em;
+    line-height: 9px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+  }
+  .educationbutton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    position: absolute;
+    top: 207px;
+    left: 579px;
+    border-radius: var(--br-33xl);
+    width: 423px;
+    height: 57px;
+    overflow: hidden;
+  }
+  .personaldetails {
+    width: 1690;
+    position: relative;
+    height: 1060px;
+    overflow: hidden;
+  }
+  .cancel {
+    position: absolute;
+    top: 9px;
+    left: calc(50% - 55px);
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.28em;
+    line-height: 49px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font-outfit);
+    color: var(--color-steelblue-100);
+    text-align: center;
+  }
+  .cancel-button {
+        cursor: pointer;
+        border: 3;
+        border-color:#0080bb;
+        padding: 0;
+        background-color: transparent;
+        position: absolute;
+        margin: 0 !important;
+        border-radius: 52px;
+      }
+  .cancel-button {
+    right: 580px;
+    bottom: 155px;
+    width: 205px;
+    height: 71px;
+    z-index: 15;
+  }
+  .save {
+    position: absolute;
+    width: calc(100% - 127px);
+    top: 12px;
+    left: calc(50% - 47px);
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.28em;
+    line-height: 49px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .save-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color:#0095D6;
+    position: absolute;
+    margin: 0 !important;
+    right: 270px;
+    bottom: 155px;
+    width: 217px;
+    height: 71px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 11;
+    border-radius: 52px;
+  }
+  .back-icon{
+    position: absolute;
+    bottom: 115px;
+    left: 190px;
+    width: 71px;
+    height: 71px;
+    object-fit: contain;
+  }
+  .back {
+    cursor: pointer;
+    bottom: 120px;
+    left: 125px;
+    width: 71px;
+    height: 65px;
+    transform-origin: 0 0;
+    background-image: url(/public/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 10;
+  }
+
+  

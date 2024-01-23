@@ -1,0 +1,533 @@
+.pagelayout1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    object-fit: cover;
+  }
+  .navouter-child {
+    position: absolute;
+    width: 97.61%;
+    top: 14px;
+    right: 0;
+    left: 2.39%;
+    background-color: var(--color-darkslategray-100);
+    box-shadow: 38px -20px 33px 55px rgba(0, 0, 0, 0.25);
+    height: 130px;
+  }
+  .ringing-phone-icon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 71px;
+    height: 56px;
+    object-fit: cover;
+  }
+  .contact-button,
+  .contactus {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+  }
+  .contactus {
+    top: 25px;
+    left: calc(50% - 41.45px);
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 153.9px;
+  }
+  .contact-button1 {
+    top: 9px;
+    left: 348px;
+    width: 220.9px;
+    height: 56px;
+  }
+  .homeicon {
+    width: 53px;
+    position: relative;
+    height: 59px;
+    object-fit: cover;
+  }
+  .home {
+    width: 71.6px;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame0,
+  .homebutton1 {
+    width: 111.6px;
+    display: flex;
+  }
+  .homebutton1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 28.3px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame0 {
+    height: 51.5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .homebutton {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .maleusericon {
+    width: 56px;
+    position: relative;
+    height: 58px;
+    object-fit: cover;
+  }
+  .profile {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 104.9px;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+  }
+  .frame1,
+  .profilebutton {
+    overflow: hidden;
+    display: flex;
+  }
+  .frame1 {
+    width: 104.9px;
+    height: 52px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .profilebutton {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-8xs) 0.0596923828125px 0;
+    background-color: transparent;
+    position: absolute;
+    top: 7px;
+    left: 163px;
+    width: 172px;
+    height: 58px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 4px;
+  }
+  .frameicon1 {
+    width: 55px;
+    position: relative;
+    height: 54.9px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .logout {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 104.9px;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    text-transform: uppercase;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+  }
+  .frame2 {
+    width: 104.9px;
+    height: 49.5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .logoutbutton,
+  .nav-menu {
+    position: absolute;
+    overflow: hidden;
+  }
+  .logoutbutton {
+    cursor: pointer;
+    border: 0;
+    padding: 0.09782674908638px 0 0.03261682391166687px;
+    background-color: transparent;
+    top: 15px;
+    left: 593px;
+    width: 159.5px;
+    height: 55.1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .nav-menu1 {
+    right: 88.9px;
+    bottom: 40px;
+    width: 752.5px;
+    height: 65px;
+  }
+  .wrapper-rectangle-19-parent {
+    position: absolute;
+    height: 93%;
+    top: 0;
+    bottom: 0;
+    left: -30;
+    border-radius: var(--br-87xl);
+    background-color: var(--color-white);
+    box-shadow: -18px 4px 27px rgba(0, 0, 0, 0.25) inset,
+      30px 0 86px rgba(0, 0, 0, 0.25);
+    width: 514px;
+  }
+  .wrapper-rectangle-19 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 51.6px;
+    height: 154px;
+  }
+  .frame3,
+  .image-8-icon {
+    position: absolute;
+    overflow: hidden;
+  }
+  .image-8-icon {
+    width: 100%;
+    top: 29.5px;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100.5px;
+    object-fit: cover;
+  }
+  .frame3 {
+    top: 0;
+    left: 100px;
+    width: 326.2px;
+    height: 130px;
+  }
+  .nav,
+  .navouter,
+  .wrapper-rectangle-19-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 524.9px;
+    height: 145px;
+  }
+  .nav,
+  .navouter {
+    width: 100%;
+    right: 0;
+  }
+  .nav {
+    margin: 0;
+    width: 102.29%;
+    top: -19px;
+    left: -2.29%;
+  }
+  .redcircle-1-icon {
+    position: absolute;
+    right: -104px;
+    bottom: -19px;
+    width: 815px;
+    height: 743px;
+    object-fit: cover;
+  }
+  .welcom-message {
+    border: 0;
+    background-color: transparent;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    font-size: 96px;
+    outline: 0;
+    position: absolute;
+    right: -260px;
+    bottom: 263px;
+    width: 800px;
+    height: 166px;
+    padding: var(--padding-3xl) var(--padding-xl);
+    box-sizing: border-box;
+    color: var(--color-white);
+  }
+  .welcom-message-child {
+    border: 0;
+    background-color: transparent;
+    font-weight: 200;
+    font-family: var(--font-outfit);
+    font-size: 45px;
+    outline: 0;
+    position: absolute;
+    right: -210px;
+    bottom: 263px;
+    width: 800px;
+    height: 80px;
+    padding: var(--padding-3xl) var(--padding-xl);
+    box-sizing: border-box;
+    color: var(--color-white);
+  }
+  .manage-employee,
+  .manageemp-button {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .manage-employee {
+    width: 366px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 34px);
+    left: calc(50% - 183px);
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.59em;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    flex-shrink: 0;
+    z-index: 0;
+  }
+  .manageemp-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    width: 794px;
+    border-radius: var(--br-33xl);
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.43);
+    flex-direction: column;
+    position: relative;
+  }
+  .manage-system-users {
+    width: 459.6px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.59em;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    height: 24.2px;
+    flex-shrink: 0;
+  }
+  .manage-system-users,
+  .managesysusers-button,
+  .training-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .managesysusers-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    width: 741px;
+    border-radius: var(--br-33xl);
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.43);
+    height: 68px;
+    flex-direction: column;
+  }
+  .training-information {
+    width: 423.6px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.59em;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    height: 24.2px;
+    flex-shrink: 0;
+  }
+  .traininfo-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    width: 683px;
+    border-radius: var(--br-33xl);
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.43);
+    height: 68px;
+    flex-direction: column;
+  }
+  .program-catalog,
+  .programcat-button,
+  .traininfo-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .program-catalog {
+    width: 423.6px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.59em;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    height: 24.2px;
+    flex-shrink: 0;
+  }
+  .programcat-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    width: 683px;
+    border-radius: var(--br-33xl);
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.43);
+    height: 68px;
+    flex-direction: column;
+  }
+  .calender {
+    width: 459.6px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.59em;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    height: 24.2px;
+    flex-shrink: 0;
+  }
+  .calendar-button,
+  .calender,
+  .view-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .calendar-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    width: 741px;
+    border-radius: var(--br-33xl);
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.43);
+    height: 68px;
+    flex-direction: column;
+  }
+  .view-feedback {
+    width: 492.5px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.59em;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: var(--font-outfit);
+    color: var(--color-white);
+    text-align: center;
+    height: 24.2px;
+    flex-shrink: 0;
+  }
+  .feedback-button,
+  .menu {
+    width: 794px;
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-crimson);
+    border-radius: var(--br-33xl);
+    box-shadow: 1px 4px 14px rgba(0, 0, 0, 0.43);
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 396.5px);
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 75px;
+  }
+  .outermenu {
+    position: absolute;
+    width: calc(100% - 1126px);
+    top: calc(50% - 313px);
+    right: 1055px;
+    left: 71px;
+    height: 783px;
+  }
+  .homeadmin {
+    width: 1920px;
+    position: relative;
+    height: 995px;
+    overflow: hidden;
+  }
+  @media screen and (max-width: 1200px) {
+    .manageemp-button:hover {
+      background-color: #db0004;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    .manageemp-button {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  
